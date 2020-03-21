@@ -1,0 +1,41 @@
+body{
+    background-image: url("background.jpg");
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    padding: 14px 16px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: rgb(100, 105, 105);
+    border-radius: .3em;
+}
+
+#welcomeDiv{
+    width: 20em;
+    height: 20em;
+    background-color: indigo;
+    margin-top: 5%;
+    margin-left: 40%;
+    border-radius: .3em;
+}
+
+#statisticsDiv{
+    width: 20em;
+    height: 20em;
+    background-color: green;
+    float: left;
+    margin-top: 5%;
+    margin-left: 40%;
+    border-radius: .3em;
+}
